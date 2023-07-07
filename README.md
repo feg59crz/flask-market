@@ -1,6 +1,6 @@
 # simple market
 
-Um projeto Flask sobre um mercado simples.
+Um projeto Flask sobre um mercado de produtos baseado nos ensinamentos do [vídeo](https://youtu.be/Qr4QMBUPxWo) disponibilizado pela freeCodeCamp.
 
 ## Conteudo abordado
 - python decorators
