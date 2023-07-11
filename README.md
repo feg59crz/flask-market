@@ -7,3 +7,6 @@ Um projeto Flask sobre um mercado de produtos baseado nos ensinamentos do [víde
 - dinamic routes
 - templates
 - styling (bootstrap)
+- template inheritance
+- Jinja Syntax
+- database models
