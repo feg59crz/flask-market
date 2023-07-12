@@ -10,3 +10,4 @@ Um projeto Flask sobre um mercado de produtos baseado nos ensinamentos do [víde
 - template inheritance
 - Jinja Syntax
 - database models
+- forms
