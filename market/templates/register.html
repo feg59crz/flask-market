@@ -13,9 +13,9 @@
         </h1>
         <br>
         <form action="" method="POST" class="form-register" style="color:white">
+            {{ form.hidden_tag() }} <!-- para prevenir Cross Site Request Forgery -->
             {{ form.username.label() }}
             {{ form.username(class="form-control", placeholder="Usuário") }}
-            
             {{ form.email_address.label() }}
             {{ form.email_address(class="form-control", placeholder="Email") }}
 
