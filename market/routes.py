@@ -28,7 +28,6 @@ def register_page():
             return redirect(url_for('market_page'))
     # se existirem erros nos validators do registro
     if form.errors != {}:
-        print("Errors")
         for err_msg in form.errors.values():
             flash(f"Erro no registro de usuário: {err_msg[0]}", category="danger")
 
