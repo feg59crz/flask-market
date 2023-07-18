@@ -29,3 +29,14 @@ class RegisterForm(FlaskForm):
         EqualTo('password1', message="Senhas devem ser iguais"), DataRequired()]) # EqualTo - compara as senhas
     
     submit = SubmitField(label="Criar Conta")
+
+class LoginForm(FlaskForm):
+    username = StringField(
+        label="Usuário:",
+        validators=[DataRequired()]
+    )
+    password = PasswordField(
+        label="Senha:",
+        validators=[DataRequired()]
+    )
+    submit = SubmitField(label="Acessar")
