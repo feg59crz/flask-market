@@ -11,3 +11,5 @@ Um projeto Flask sobre um mercado de produtos baseado nos ensinamentos do [víde
 - Jinja Syntax
 - database models
 - forms
+- validators
+- getters and setters
