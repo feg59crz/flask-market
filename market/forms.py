@@ -40,3 +40,9 @@ class LoginForm(FlaskForm):
         validators=[DataRequired()]
     )
     submit = SubmitField(label="Acessar")
+
+class PurchaseItemForm(FlaskForm):
+    submit = SubmitField(label="Comprar Item")
+
+class SellItemForm(FlaskForm):
+    submit = SubmitField(label="Vender Item")

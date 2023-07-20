@@ -13,3 +13,5 @@ Um projeto Flask sobre um mercado de produtos baseado nos ensinamentos do [víde
 - forms
 - validators
 - getters and setters
+- registration/login system
+- 
